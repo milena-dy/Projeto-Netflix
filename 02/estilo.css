@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'games';
+    src: url('../estilo/games/Games.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'over';
+    src: url('../estilo/game_over.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'ggame';
+    src: url('../estilo/GAME_glm.ttf') format('truetype');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#capa{
+    background-image: url(midia/teste.png);
+    width: 100%;
+    height:600px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.212);  
+}
+
+#tituloPrincipal{
+    color: #ffffff;     
+    float: left;
+    font-family: 'ggame';
+    padding: 5px;
+}
+
+#navegaçao nav a{
+    text-decoration: none;
+    color: white;
+    float: left;
+    font-size: 10px;
+    padding-left: 5px;
+    padding-top: 15px;
+}
+
+
+ul li{
+    float: left;
+    list-style-type: none;
+    color: #ffffff;
+    text-decoration: none;
+    padding-top : 15px;
+    padding-right: 5px;
+}
+
+.icones{
+    width: 20px;
+}
+
+#info{
+    display: block;
+}
