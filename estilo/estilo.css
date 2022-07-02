@@ -31,6 +31,7 @@ body{
 
 header{
    padding: 25px;
+   text-shadow: 5px 5px 5px 5px blue;
 }
 
 h1{
@@ -39,11 +40,13 @@ h1{
     margin: 5px;
     font-family: 'ggame';
     padding: 15px;
+    text-shadow: 8px 8px #29455f;
 }
 
 h1:hover{
     font-size: 50px;
     color: rgb(20, 44, 90);
+    text-shadow: 8px 8px #4c79a3;
 }
 
 nav a{
@@ -52,8 +55,16 @@ nav a{
     margin: 4px;
     float: left;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
     padding-top: 18px;
+    text-shadow: 3px 3px #446b8f;
+}
+
+a:hover{
+    font-size: 25px;
+    color: rgb(10, 54, 134);
+    text-shadow: 5px 5px #4c79a3;
+    text-decoration: dashed;
 }
 
 button{
@@ -122,19 +133,20 @@ button{
     width: 150px;
     float: left;
     padding-top: 15px;
-    height: 240px;
+    padding-left: 0px;
+    height: 240px; 
     
 }
-
+    
 .top h1{
-    font-size: 150px;
+    font-size: 200px;
     color: rgba(139, 136, 136, 0.705);
     font-family: Arial, Helvetica, sans-serif;
     padding-right: 0;
+    text-shadow: 3px 3px #0000007e;
 }
 
 #outros{
-    display: block;
     margin-top: 20px;
     position: relative;
 }
