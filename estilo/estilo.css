@@ -46,7 +46,7 @@ h1{
 
 h1:hover{
     font-size: 40px;
-    color: rgb(23, 85, 64);
+    color: rgb(255, 255, 255);
     text-shadow: 1px 1px #6aa8e2;
     text-decoration: dashed;
 }
@@ -57,15 +57,15 @@ nav a{
     color: white;
     margin: 0.5%;
     float: left;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 600;
     padding-top: 1%;
     text-shadow: 3px 3px #446b8f;
 }
 
 a:hover{
-    font-size: 35px;
-    color: rgb(23, 85, 64);
+    font-size: 30px;
+    color: rgb(216, 226, 223);
     text-shadow: 1px 1px #6aa8e2;
     text-decoration: dashed;
 }
