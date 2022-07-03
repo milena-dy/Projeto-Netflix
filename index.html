@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GameFlix</title>
+    <title>NetFlix</title>
     <link rel="stylesheet" href="estilo/estilo.css">
     <link rel="shortcut icon" href="5166323.png" type="image/x-icon">
 </head>
 <body>
-    <section>
+    <header>
         <div id="fundo">
             <div id="cabeça">
                 <div>
@@ -28,21 +28,22 @@
                 </div>
             </div>
             <div id="botao1">
-                <button><img src="midia/lupa-1.webp" alt="lupa" class="icones"></button>
-                <button class="icones">&#x1F514</button>
-                <button><img src="midia/perfil.jpg" alt="foto perfil" class="icones"></button>                   
+                <button role="button" style="cursor: pointer;" class="icones"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <button role="button" class="icones" style="cursor: pointer; font-size: 35px;"><i class="fa-solid fa-bell"></i></button>
+                <button role="button" style="cursor: pointer;"><img src="midia/perfil.jpg" alt="foto perfil" class="icones"></button>                   
             </div>
             <div id="texbut">
                 <div id="texto">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolores quas facere vero fuga ratione corporis architecto, quod.</p>
                 </div>
                 <div id="botao2">
-                    <button id="assistir">	&#9658; Assistir</button> <button id="info"> &#x1F6C8 Mais Informações</button>
+                    <button role="button" id="assistir"> <i class="fa-solid fa-play"></i> Assistir</button> 
+                    <button role="button" id="info"> <i class="fa-solid fa-circle-info"></i> Mais Informações</button>
                 </div>
             </div>
         </div>
-    </section>
-    <section>
+    </header>
+    <main>
         <div id="outros">
             <div class="top">
                 <h1>1</h1> <img src="midia/Minecraft_capa.png" alt="Capa do jogo Minecraft">
@@ -75,9 +76,11 @@
                 <h1>10</h1> <img src="midia/pes.jpg" alt="Capa do jogo Minecraft">
              </div>
         </div>
-    </section>
+    </main>
     <footer>
 
     </footer>    
+
+    <script src="https://kit.fontawesome.com/f7f81abcde.js" crossorigin="anonymous"></script>
 </body>
 </html>
