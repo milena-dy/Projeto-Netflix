@@ -45,9 +45,10 @@ h1{
 }
 
 h1:hover{
-    font-size: 50px;
-    color: rgb(20, 44, 90);
-    text-shadow: 8px 8px #4c79a3;
+    font-size: 40px;
+    color: rgb(23, 85, 64);
+    text-shadow: 1px 1px #6aa8e2;
+    text-decoration: dashed;
 }
 
 nav a{
@@ -64,8 +65,8 @@ nav a{
 
 a:hover{
     font-size: 35px;
-    color: rgb(10, 54, 134);
-    text-shadow: 3px 3px #4c79a3;
+    color: rgb(23, 85, 64);
+    text-shadow: 1px 1px #6aa8e2;
     text-decoration: dashed;
 }
 
